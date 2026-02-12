@@ -2,6 +2,8 @@
 
 A lightweight macOS menu bar app that shows world clocks at a glance. Click the menu bar to see all your configured timezones with aligned columns, or display a specific timezone's time right in the menu bar.
 
+<img src="screenshot.jpg" width="500" alt="Timezone Bar screenshot">
+
 ## Features
 
 - **Menu bar clock** -- show local time, a specific timezone, or just an icon

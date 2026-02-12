@@ -16,6 +16,7 @@ bundle: build
 	@mkdir -p "$(BUNDLE)/Contents/MacOS" "$(BUNDLE)/Contents/Resources"
 	cp "$(BIN_DIR)/$(APP_NAME)" "$(BUNDLE)/Contents/MacOS/"
 	cp Info.plist "$(BUNDLE)/Contents/"
+	cp AppIcon.icns "$(BUNDLE)/Contents/Resources/"
 	codesign --force -s - "$(BUNDLE)"
 	@echo "✓ $(BUNDLE) is ready"
 
